@@ -1,5 +1,5 @@
 -
-  name: Deploy web page
+  name: Deploy web pages
   hosts: server
   become: yes
   tasks:
@@ -7,3 +7,5 @@
        copy:
          src: index.html
          dest: /var/www/html/
+
+
